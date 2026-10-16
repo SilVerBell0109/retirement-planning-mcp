@@ -129,10 +129,10 @@ docker pull silverbell0109/tooja_server:latest
    cd $env:USERPROFILE\Downloads
 
    # 압축 해제 (파일명은 실제 다운로드된 파일명으로 변경)
-   Expand-Archive -Path etirement-planning-mcp-master.zip -DestinationPath .
+   Expand-Archive -Path retirement-planning-mcp-master.zip -DestinationPath .
 
    # 압축 해제된 폴더로 이동
-   cd etirement-planning-mcp-master
+   cd retirement-planning-mcp-master
    ```
 
    **macOS / Linux:**
@@ -141,10 +141,10 @@ docker pull silverbell0109/tooja_server:latest
    cd ~/Downloads
 
    # 압축 해제
-   unzip etirement-planning-mcp-master.zip
+   unzip retirement-planning-mcp-master.zip
 
    # 압축 해제된 폴더로 이동
-   cd etirement-planning-mcp-master
+   cd retirement-planning-mcp-master
    ```
 
 ### 방법 2: Git Clone (개발자용)
@@ -153,10 +153,10 @@ Git이 설치되어 있다면 다음 명령어로 클론할 수 있습니다:
 
 ```bash
 # HTTPS로 클론
-git clone https://github.com/YOUR_USERNAME/etirement-planning-mcp.git
+git clone https://github.com/YOUR_USERNAME/retirement-planning-mcp.git
 
 # 클론된 폴더로 이동
-cd etirement-planning-mcp
+cd retirement-planning-mcp
 ```
 
 > **참고:** 이 프로젝트는 Docker 기반으로 실행되므로, 소스 코드를 다운로드하지 않아도 Docker 이미지만으로 사용할 수 있습니다. 소스 코드는 커스터마이징이 필요한 경우에만 다운로드하세요.
